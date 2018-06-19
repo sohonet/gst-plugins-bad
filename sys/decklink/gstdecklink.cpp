@@ -77,6 +77,10 @@ gst_decklink_mode_get_type (void)
     {GST_DECKLINK_MODE_2160p5994, "4k 59.94p", "2160p5994"},
     {GST_DECKLINK_MODE_2160p60, "4k 60p", "2160p60"},
 
+    {GST_DECKLINK_MODE_2KDCI2398p, "2K DCI 23.98p", "2K DCI 23.98p"},
+    {GST_DECKLINK_MODE_2KDCI24p, "2K DCI 24p", "2K DCI 24p"},
+    {GST_DECKLINK_MODE_2KDCI25p, "2K DCI 25p", "2K DCI 25p"},
+
     {0, NULL, NULL}
   };
 
